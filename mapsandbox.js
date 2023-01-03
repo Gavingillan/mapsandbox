@@ -61,8 +61,8 @@ d3.json('../uscounties.json').then(function(bb) {
             max_range = 80
             if (Math.abs(cenx - countyx) <= max_range && Math.abs(ceny - countyy) <= max_range) {
                 count++;
-                dist = (255-40).toString(16) //(255-Math.sqrt((cenx - countyx)**2 + (ceny - countyy)**2)).toString(16);
-                //dist = dist.substring(0,dist.indexOf("."))
+                dist = (255-Math.sqrt((cenx - countyx)**2 + (ceny - countyy)**2)).toString(16);
+                dist = dist.substring(0,dist.indexOf("."))
                 
                 console.log(dist)
 
