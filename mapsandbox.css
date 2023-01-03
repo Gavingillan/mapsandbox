@@ -1,0 +1,61 @@
+/*
+Color palette:
+Palette 2
+        #F0ECE3
+        #DFD3C3
+        #C7B198
+        #A68DAD
+*/
+
+body {
+    background-color: #C7B198;
+}
+
+p {
+    color: #F0ECE3;
+    font-family: Verdana, sans-serif;
+}
+
+.mainContainer {
+    /*border: red 1px dotted;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: solid blue 1px; */
+}
+
+#mapWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*border: solid #F0ECE3 2px;*/
+}
+
+svg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #F0ECE3; /* Green */
+    border: solid 3px #DFD3C3;
+    color: #C7B198;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
